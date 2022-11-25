@@ -2,20 +2,25 @@
 
 [![Pub Version](https://img.shields.io/pub/v/esc_pos_bluetooth_v2)](https://pub.dev/packages/esc_pos_bluetooth_v2)
 
-The library allows to print receipts using a Bluetooth printer. For WiFi/Ethernet printers, use [esc_pos_printer](https://github.com/andrey-ushakov/esc_pos_printer) library.
+[//]: # (The library allows to print receipts using a Bluetooth printer. For WiFi/Ethernet printers, use [esc_pos_printer]&#40;https://github.com/andrey-ushakov/esc_pos_printer&#41; library.)
 
 
 ## TODO (PRs are welcomed!)
-* Split byte data into chunks: [issue](https://github.com/andrey-ushakov/esc_pos_bluetooth_v2/issues/5)
+
+[//]: # (* Split byte data into chunks: [issue]&#40;https://github.com/andrey-ushakov/esc_pos_bluetooth_v2/issues/5&#41;)
 * Print QR Codes using the `GS ( k` command (printing QR code from an image already supported)
 * PDF-417 Barcodes using the `GS ( k` command
 * Line spacing using the `ESC 3 <n>` command
 
-## How to Help
-* Test your printer and add it in the table: [Wifi/Network printer](https://github.com/andrey-ushakov/esc_pos_printer/blob/master/printers.md) or [Bluetooth printer](https://github.com/andrey-ushakov/esc_pos_bluetooth_v2/blob/master/printers.md)
-* Test and report bugs
-* Share your ideas about what could be improved (code optimization, new features...)
-* PRs are welcomed!
+[//]: # (## How to Help)
+
+[//]: # (* Test your printer and add it in the table: [Wifi/Network printer]&#40;https://github.com/andrey-ushakov/esc_pos_printer/blob/master/printers.md&#41; or [Bluetooth printer]&#40;https://github.com/andrey-ushakov/esc_pos_bluetooth_v2/blob/master/printers.md&#41;)
+
+[//]: # (* Test and report bugs)
+
+[//]: # (* Share your ideas about what could be improved &#40;code optimization, new features...&#41;)
+
+[//]: # (* PRs are welcomed!)
 
 
 ## Tested Printers
@@ -57,7 +62,7 @@ Ticket testTicket() {
 }
 ```
 
-You can find more examples here: [esc_pos_utils](https://github.com/andrey-ushakov/esc_pos_utils).
+[//]: # (You can find more examples here: [esc_pos_utils]&#40;https://github.com/andrey-ushakov/esc_pos_utils&#41;.)
 
 
 ## Print a Ticket
